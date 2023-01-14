@@ -14,7 +14,7 @@ public class Main : UnityMod // Add the base type so the loader could find and i
         waitForQM().Start(); // Start, this is an extention Method, you could call CoroutinesHandler.Start(enmu); | Needs to have "using WorldLoader.Utils;"
         IEnumerator waitForQM() {
             while (GameObject.Find("Canvas_QuickMenu(Clone)") == null) yield return null; // Trys to find the Qm, if the Find Return null, it will wait for the next frame and check
-            yield return null; // wait one more frame, this is needed, but shut up
+            yield return null; // wait one more frame, this isn't needed, but shut up
 
             MakeMenu.MakeMainMenu();
 

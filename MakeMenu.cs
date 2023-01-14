@@ -15,7 +15,7 @@ internal class MakeMenu // Outside call, so we dont put everything on the main c
         MainPage = new("Example Menu"); // Making a new VRCPage, cause the we're assining a field, we can just use the new() keyword as the IDE already the new class we're making, basiclly the same as doing new VRCPage(..);
         new Tab(MainPage, "Buy WCv2 <3"); // Making a new tab, i dout we'll ever need to mess with this in the furter time, so we dont need to assine it a field
 
-        MainGrp = new ButtonGroup(MainPage, "Btn Grp"); // the first parm is the menu ur wanting to put the button Grp's, this Grp will hold all of ur menus
+        MainGrp = new ButtonGroup(MainPage, "Btn Grp"); // the first parm is the menu ur wanting to put the button Grp's, this Grp will hold all of ur Buttons
 
         SubMenu.MakeSubMenu(); // Making sure this is called AFTER!! the mainMenu is made
 

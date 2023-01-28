@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Carousel.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="MakeMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
